@@ -3,7 +3,7 @@
 This is a python based ToDo Application that provides APIs to handle tasks.
 
 ## End Points
-* `/login` POST API that takes `email` and `password` as payload and gives a `JWT token` as response. This should be passed as Authorization in headers for other APIs.
+* `/login` POST API that takes `email` and `password` as payload and gives a `JWT token` as response. This should be passed as Authorization in headers for other APIs. For testing, use `test@test.com`, `test123` as email and password respectively.
 * `/addTask` POST API that takes `task` and `priority` as mandatory payload data and `dueDate` as option.
 * `/editTask` POST API that takes `taskID, description, dueDate` and `priorityID`as payload data. `taskID` is mandatory.
 * `/completeTask` POST API where taskID is given as a parameter. This API toggles between Completed and Active statuses.
